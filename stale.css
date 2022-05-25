@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?=Roboto:wght@300;400;500&family=ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    background-color: #8A2121;
+    font-family: 'Racing Sans One', cursive;
+    color: aliceblue;
+    font-size: 37px;
+    transition: all 0. 3s ease;
+}
+.navbar-end{
+    width: 350px;
+}
+.navbar.sticky{
+    background-color: rgb(23, 23, 26);
+    padding: 15px 0;
+}
+.input{
+    box-sizing: border-box;
+    width: 450px;
+    margin: auto;
+    border-radius: 10px;
+}
+.img{
+    width: 1050px;
+    border-radius: 5px;
+}
+.img-3{
+    border-radius: 6px;
+}
+.card{
+    border-radius: 6px;
+}
+.columns{
+    background-color: #353131;
+}
+
+:root {
+    --cor-principal:var(--cor--principal);
+    --cor-secundaria:var(--cor-principal);
+}
+.nav{
+    max-width: 350px;
+    width: 100%;
+    height: 827px;
+    background-color: rgb(7, 7, 7);
+    font-size: 40px;
+    font-family: 'Racing Sans One', cursive;
+    border-radius: 6px;
+}
+.nav ul li{
+    border-bottom: 1px solid var(--cor-principal);
+}
+.nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul li a{
+    background-color: var(--cor-principal);
+    color: beige;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    background-color: var(--cor-principal);
+    color: var(--cor-principal);
+}
+.about-content{
+    width: 1000px;
+    height: 400px;
+}
+
+/* respansividade*/
+
+@media (max-width: 1300px){
+    .navbar max-width{
+     margin-left: 0;
+    }
+}
+    
+@media (max-width: 947px){
+    .max-width{
+     max-width: 800px;
+     padding: 0 50px;
+    }
+}    
